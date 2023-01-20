@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	float moneda,distancia,peso;
+	cout << "ingrese la cantidad:";
+	cout << "en que se convertira:";
+    cin>>moneda,distancia,peso;
+    
+	// MENU DE OPCIONES 
+
+	int monedaG=moneda * 0.41;
+	int monedaCH=moneda * 43.35;
+	int monedaA=moneda * 0.049;
+	int monedaF=moneda * 20.59;
+	float monedaD=moneda * 0.19;
+	long  distanciaIN=distancia * 2.5;
+	float distanciaFT=distancia * 30;
+	float distanciaCM=distancia * 0.4;
+	float distanciaNM=distancia * 1.852;
+	float distanciaLY=distancia * 9.461;
+	float pesoTN=peso * 1000;
+	float pesoOZ=peso * 28.35;
+	float pesoIB=peso * 453.59237;
+	float pesoUG=peso * 1000.000;
+	long int pesoTG=peso * 1000.000000;
+	
+	cout << "valor de moneda de guatemala:" << monedaG << endl;
+	cout << "valor de moneda de chile:" << monedaCH << endl;
+	cout << "valor de moneda de alemania:" << monedaA << endl;
+	cout << "valor de moneda de francia:" << monedaF << endl;
+	cout << "valor de moneda de dubai:" << monedaD << endl;
+	cout << "valor de distancia en pulgadas:" << distanciaIN << endl;
+	cout << "valor de distancia en pie:" << distanciaFT << endl;
+	cout << "valor de distancia en centimetros:" << distanciaCM << endl;
+	cout << "valor de distancia en nano metros: " << distanciaNM << endl;
+	cout << "valor de distancia en años luz:" << distanciaLY << endl;
+	cout << "valor de peso en toneladas:" << pesoTN << endl;
+	cout << "valor de peso en onzas:" << pesoOZ << endl;
+	cout << "valor de peso en libra:" << pesoIB << endl;
+	cout << "valor de peso en microgramo:" << pesoUG << endl;
+	cout << "valor de peso en tetagramo:" << pesoTN << endl;
+	return 0 ;
